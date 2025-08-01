@@ -44,7 +44,7 @@ async def ussd(
 ):
     """Handle USSD requests"""
     try:
-        logger.info(f"USSD request: sessionId={sessionId}, phoneNumber={phoneNumber}, text={text}")
+        logger.info(f"USSD request: sessionId={sessionId}, phoneNumber={phoneNumber}, text={text}, serviceCode={serviceCode}")
         
         # Validate required parameters
         if not sessionId or not phoneNumber:
