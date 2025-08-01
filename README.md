@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # USSD API Service
 
 A FastAPI-based USSD (Unstructured Supplementary Service Data) service for mobile banking and telecommunications.
@@ -95,3 +96,7 @@ pyussd/
 ## License
 
 MIT License 
+=======
+# RenderTest
+Test app for render hosting
+>>>>>>> 625a0d617411b7e477db2ee120bce05e73fdcace
